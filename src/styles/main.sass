@@ -3,3 +3,49 @@ $maungoc: #17c2a4 // Cyan
 $mauvang: #ffdd99 // Vang 
 $maudo: #d74680 // Đỏ 
 $mauxanh: #3c5499 // Xanh 
+$mautrang: #fff
+
+body    
+    font-family: 'Titillium Web', sans-serif
+.home_slider
+    background: $mautim
+    min-height: 368px
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    h1
+        color: #fff
+        letter-spacing: 1px
+        font-weight: 700
+    .btn_more
+        background-color: $mauvang
+        color: $mautrang
+.home_services
+    background: $maungoc
+    min-height: 368px
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    img 
+        max-width: 120px
+    h2 
+        position: relative
+        margin-bottom: 1rem
+        &:before,
+        &:after
+            content: ''
+            display: block
+            background-color: black
+            position: absolute
+            left: 50%
+            transform: translateX(-50%)
+        &:before
+            width: 60px
+            height: 3px
+            bottom: -10px
+        &:after
+            width: 10px
+            height: 10px
+            bottom: -14px
