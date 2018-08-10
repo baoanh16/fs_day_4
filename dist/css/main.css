@@ -382,6 +382,12 @@ nav {
     height: 80px;
     border-radius: 100%;
     background-color: grey; }
+    @media only screen and (max-width: 767px) {
+      .home_comment .comment_avatar {
+        margin-left: 40%;
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px; } }
   .home_comment .comment_content {
     text-align: left;
     font-size: 0.9rem; }
@@ -439,6 +445,9 @@ nav {
     @media only screen and (max-width: 576px) {
       .home_contact form {
         width: 450px; } }
+    @media only screen and (max-width: 475px) {
+      .home_contact form {
+        width: 350px; } }
     .home_contact form input, .home_contact form textarea {
       background-color: #273A71;
       color: white;
@@ -484,10 +493,18 @@ footer {
       footer a {
         font-size: 0.8rem;
         margin: 1rem 0.5rem; } }
-    @media only screen and (max-width: 499px) {
+    @media only screen and (max-width: 515px) {
       footer a {
         font-size: 0.8rem;
         margin: 1rem 0.4rem; } }
+    @media only screen and (max-width: 491px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 0.3rem; } }
+    @media only screen and (max-width: 465px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 0.2rem; } }
   footer a:hover {
     text-decoration: none;
     color: #30BAE7; }

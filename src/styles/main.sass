@@ -235,6 +235,11 @@ nav
             height: 80px
             border-radius: 100%
             background-color: grey
+            @media only screen and (max-width: 767px)
+                margin-left: 40%
+                width: 100px
+                height: 100px
+                margin-bottom: 15px
     .comment_content
             text-align: left
             font-size: 0.9rem
@@ -268,6 +273,8 @@ nav
         width: 700px
         @media only screen and (max-width: 576px)
             width: 450px
+        @media only screen and (max-width: 475px)
+            width: 350px
         input,textarea
             background-color: #273A71      
             color: white
@@ -308,9 +315,15 @@ footer
         @media only screen and (max-width: 540px)
             font-size: 0.8rem
             margin: 1rem 0.5rem
-        @media only screen and (max-width: 499px)
+        @media only screen and (max-width: 515px)
             font-size: 0.8rem
             margin: 1rem 0.4rem
+        @media only screen and (max-width: 491px)
+            font-size: 0.8rem
+            margin: 1rem 0.3rem
+        @media only screen and (max-width: 465px)
+            font-size: 0.8rem
+            margin: 1rem 0.2rem    
     a:hover
         text-decoration: none
         color: #30BAE7
