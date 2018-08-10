@@ -72,7 +72,8 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    margin-bottom: 2rem; }
     .home_services h2:before {
       content: '';
       display: block;
@@ -119,7 +120,8 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    margin-bottom: 2rem; }
     .home_team h2:before {
       content: '';
       display: block;
@@ -169,7 +171,8 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    margin-bottom: 2rem; }
     .home_skills h2:before {
       content: '';
       display: block;
@@ -292,7 +295,8 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
-    letter-spacing: 3px; }
+    letter-spacing: 3px;
+    margin-bottom: 2rem; }
     .home_portfolio h2:before {
       content: '';
       display: block;
@@ -353,6 +357,7 @@ nav {
     font-weight: bold;
     font-size: 2.5rem;
     letter-spacing: 3px;
+    margin-bottom: 2rem;
     color: white; }
     .home_comment h2:before {
       content: '';
@@ -409,6 +414,7 @@ nav {
     font-weight: bold;
     font-size: 2.5rem;
     letter-spacing: 3px;
+    margin-bottom: 2rem;
     color: white; }
     .home_contact h2:before {
       content: '';
@@ -452,13 +458,37 @@ nav {
       text-transform: uppercase; }
 
 footer {
-  background: #344B8E; }
+  background: #344B8E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
   footer a {
     color: #fff;
     margin: 2rem 2rem;
     font-size: 1.2rem;
     font-weight: 600;
     display: inline-block; }
+    @media only screen and (max-width: 1201px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 2.2rem; } }
+    @media only screen and (max-width: 992px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 1.3rem; } }
+    @media only screen and (max-width: 767px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 0.7rem; } }
+    @media only screen and (max-width: 524px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 0.5rem; } }
+    @media only screen and (max-width: 499px) {
+      footer a {
+        font-size: 0.8rem;
+        margin: 1rem 0.4rem; } }
   footer a:hover {
     text-decoration: none;
     color: #30BAE7; }

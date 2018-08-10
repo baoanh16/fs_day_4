@@ -19,6 +19,7 @@ $mautrang: #fff
     font-weight: bold
     font-size: 2.5rem
     letter-spacing: 3px
+    margin-bottom: 2rem
     &:before
         content: ''
         display: block
@@ -286,12 +287,31 @@ nav
             text-transform: uppercase
 footer
     background: #344B8E
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
     a 
         color: #fff
         margin: 2rem 2rem
         font-size: 1.2rem
         font-weight: 600
         display: inline-block
+        @media only screen and (max-width: 1201px)
+            font-size: 0.8rem
+            margin: 1rem 2.2rem
+        @media only screen and (max-width: 992px)
+            font-size: 0.8rem
+            margin: 1rem 1.3rem
+        @media only screen and (max-width: 767px)
+            font-size: 0.8rem
+            margin: 1rem 0.7rem
+        @media only screen and (max-width: 524px)
+            font-size: 0.8rem
+            margin: 1rem 0.5rem
+        @media only screen and (max-width: 499px)
+            font-size: 0.8rem
+            margin: 1rem 0.4rem
     a:hover
         text-decoration: none
         color: #30BAE7
