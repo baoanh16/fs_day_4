@@ -1,33 +1,219 @@
 extends _layout/layout.pug
-block main 
+block main	
 	section.home_slider 
 		.container       
 			.row
 				.col
-					h1 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+					h1 
+						| Hi there! We are the new kids on the block
+						br
+						| and we build awesome websites and mobile app.
 					p
-						a.btn.btn_more(href="#") Liên kết
+						a.btn.btn_more(href="#") Work with us!
 	section.home_services 
 		.container 
 			.row
 				.col
-					h2 Lorem ipsum dolor sit amet consectetur adipisicing elit  
-					p Lorem ipsum dolor sit amet consectetur adipisicing elit   
+					h2 Services we provide  
+					p.services_introduction
+						| We are working with both individuals and businesses from all the globe
+						br
+						| to create awesome websites and applications.
 			.row
-				.col-sm-6.col-md-3
+				.col-md-3
 					img(src="./img/home_icon_1.png", alt="")
-					h3 Lorem ipsum dolor
-					p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-				.col-sm-6.col-md-3
+					h3 Branding
+					p.services_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat. 
+				.col-md-3
 					img(src="./img/home_icon_2.png", alt="")
-					h3 Lorem ipsum dolor
-					p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-				.col-sm-6.col-md-3
+					h3 Design
+					p.services_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat. 
+				.col-md-3
 					img(src="./img/home_icon_3.png", alt="")
-					h3 Lorem ipsum dolor
-					p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-				.col-sm-6.col-md-3
+					h3 Development
+					p.services_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat.
+				.col-md-3
 					img(src="./img/home_icon_4.png", alt="")
-					h3 Lorem ipsum dolor
-					p Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					h3 Rocket science
+					p.services_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat. 
+	section.home_team
+		.container 
+			.row
+				.col
+					h2 Meet our beautiful team 
+					p.team_introduction
+						| We have a small team of designers and developers, who help branding with big ideas
+			.row
+				.col-md-3
+					img(src="./img/home_team_avatar_1.png", alt="")
+					h3 Anne Hathaway
+					h4 CEO / Marketing Guru
+					p.team_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat.
+					p.team_contact
+						a(href="#")
+							i.fab.fa-facebook-f.icon-contact
+						a(href="#")
+							i.fab.fa-twitter.icon-contact
+						a(href="#")
+							i.fab.fa-linkedin-in.icon-contact
+						a(href="#")
+							i.fas.fa-envelope.icon-contact
+				.col-md-3
+					img(src="./img/home_team_avatar_1.png", alt="")
+					h3 Kate Upton
+					h4 Creative Director 
+					p.team_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat.
+					p.team_contact
+						a(href="#")
+							i.fab.fa-facebook-f.icon-contact
+						a(href="#")
+							i.fab.fa-twitter.icon-contact
+						a(href="#")
+							i.fab.fa-linkedin-in.icon-contact
+						a(href="#")
+							i.fas.fa-envelope.icon-contact 
+				.col-md-3
+					img(src="./img/home_team_avatar_1.png", alt="")
+					h3 Dakota Fanning
+					h4 Lead Designer
+					p.team_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat.
+					p.team_contact
+						a(href="#")
+							i.fab.fa-facebook-f.icon-contact
+						a(href="#")
+							i.fab.fa-twitter.icon-contact
+						a(href="#")
+							i.fab.fa-linkedin-in.icon-contact
+						a(href="#")
+							i.fas.fa-envelope.icon-contact
+				.col-md-3
+					img(src="./img/home_team_avatar_1.png", alt="")
+					h3 Emma Watson
+					h4 SEO / Developer
+					p.team_content Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quaerat quas iste dolores, quo placeat.
+					p.team_contact
+						a(href="#")
+							i.fab.fa-facebook-f.icon-contact
+						a(href="#")
+							i.fab.fa-twitter.icon-contact
+						a(href="#")
+							i.fab.fa-linkedin-in.icon-contact
+						a(href="#")
+							i.fas.fa-envelope.icon-contact
+	section.home_skills
+		.container 
+			.row
+				.col
+					h2 We got skills 
+					p.skills_introduction 
+					| Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					br
+					| Dignissimos ducimus officiis omnis labore inventore.
+			.row
+				.col-md-3
+					.circular-progress-90
+					h3 Web design
+				.col-md-3
+					.circular-progress-75
+					h3 HTML / CSS
+				.col-md-3
+					.circular-progress-70
+					h3 Graphic design
+				.col-md-3
+					.circular-progress-85
+					h3 UI / UX
+	section.home_portfolio
+		.container       
+			.row
+				.col
+					h2 Our portfolio
+					p.portfolio_introduction  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et accusamus debitis labore possimus tempora eos, at neque temporibus modi nostrum asperiores, aspernatur quisquam dolore fuga mollitia eaque architecto tempore aliquam.
+			.row
+				.col
+					.btn-portfolio-container
+						p
+							a(href="#").btn.btn-portfolio ALL
+						p
+							a(href="#").btn.btn-portfolio WEBS
+						p
+							a(href="#").btn.btn-portfolio APPS
+						p
+							a(href="#").btn.btn-portfolio ICONS
+			.row
+				.col-md-6
+					img(src="./img/home_work_thumbnail_1.png", alt="").img-fluid
+					h3 ISOMETRIC PERSPECTIVE MOCK-UP
+				.col-md-6
+					img(src="./img/home_work_thumbnail_2.png", alt="").img-fluid
+					h3 TIMEZONE APP UI
+				.col-md-6
+					img(src="./img/home_work_thumbnail_3.png", alt="").img-fluid
+					h3 VIRO VIDEO PLAYER UI
+				.col-md-6
+					img(src="./img/home_work_thumbnail_4.png", alt="").img-fluid
+					h3 BLOG / MAGAZINE FLAT UI KIT
+			.row
+				.col
+					.p
+						a(href="#").btn_load.btn LOAD MORE PROJECT
+	section.home_comment
+		.container       
+			.row
+				.col
+					h2 What people say about us
+					p.comment_introduction  Our client love us!
+			.row
+				.col-md-6
+					.comment_container
+						.comment_avatar
+						.comment_content
+							p
+								i.quote "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nisi assumenda aut voluptatum possimus aspernatur libero autem repudiandae, delectus ipsum perferendis architecto."
+								h5.name Channel Iman
+								h5.job CEO of Pinterest
+				.col-md-6
+					.comment_container
+						.comment_avatar
+						.comment_content
+							p
+								i.quote "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nisi assumenda aut voluptatum possimus aspernatur libero autem repudiandae, delectus ipsum perferendis architecto."
+								h5.name Bao Nguyen Yam
+								h5.job Founder of Fullstack Vietnam
+				.col-md-6
+					.comment_container
+						.comment_avatar
+						.comment_content
+							p
+								i.quote "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nisi assumenda aut voluptatum possimus aspernatur libero autem repudiandae, delectus ipsum perferendis architecto."
+								h5.name Bill Gates
+								h5.job Founder of Microsoft
+				.col-md-6
+					.comment_container
+						.comment_avatar
+						.comment_content
+							p
+								i.quote "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus nisi assumenda aut voluptatum possimus aspernatur libero autem repudiandae, delectus ipsum perferendis architecto."
+								h5.name Tim Cook
+								h5.job CEO of Apple
+	section.home_contact
+		.container       
+			.row
+				.col
+					h2 Get in touch
+					p.contact_introduction  29 Cemetery St. Lady Lake, FL 32159, United States of America. Tel: (799) 643-0477
+			.row.form-container
+				form
+					.form-row
+						.col
+							input.input-text.form-control(type='text' placeholder='Your name')
+						.col
+							input.input-text.form-control(type='text' placeholder='Your email')
+					.form-row
+						.col
+							textarea.input-textarea.form-control(row='8'
+							placeholder='Your message')
+					.form-row
+						.col
+							button(type="submit").btn.btn-submit Send message
+					
 					

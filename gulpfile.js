@@ -20,6 +20,7 @@ gulp.task('copy', function () {
 gulp.task('noifile-css', function () {
   return gulp.src([
       'bower_components/bootstrap/dist/css/bootstrap.min.css',
+      'bower_components/Font-Awesome/web-fonts-with-css/css/*.css',
     ])
     .pipe(concat('thuvien.css'))
     .pipe(gulp.dest('./dist/css'));
