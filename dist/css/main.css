@@ -32,6 +32,9 @@ nav {
     color: #fff;
     letter-spacing: 1px;
     font-weight: 700; }
+    @media only screen and (max-width: 488px) {
+      .home_slider h1 {
+        font-size: 2rem; } }
   .home_slider .btn_more {
     padding: 0.9rem 3.8rem;
     background-color: #EB7D4B;
@@ -448,6 +451,9 @@ nav {
     @media only screen and (max-width: 475px) {
       .home_contact form {
         width: 350px; } }
+    @media only screen and (max-width: 374px) {
+      .home_contact form {
+        width: 280px; } }
     .home_contact form input, .home_contact form textarea {
       background-color: #273A71;
       color: white;
