@@ -376,16 +376,14 @@ nav {
     margin-bottom: 2.6rem;
     color: white; }
   .home_comment .comment_container {
-    display: inline-flex;
     margin-bottom: 30px; }
   .home_comment .comment_avatar {
-    width: 200px;
-    height: 66px;
+    width: 80px;
+    height: 80px;
     border-radius: 100%;
     background-color: grey; }
   .home_comment .comment_content {
     text-align: left;
-    margin-left: 3rem !important;
     font-size: 0.9rem; }
     .home_comment .comment_content .quote {
       color: white;
@@ -397,7 +395,8 @@ nav {
     .home_comment .comment_content .job {
       color: #F8C795;
       font-weight: 400;
-      font-size: 0.9rem; }
+      font-size: 0.9rem;
+      margin-bottom: 8px; }
 
 .home_contact {
   min-height: 580px;
