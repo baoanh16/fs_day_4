@@ -505,6 +505,14 @@ footer {
       footer a {
         font-size: 0.8rem;
         margin: 1rem 0.2rem; } }
+    @media only screen and (max-width: 415px) {
+      footer a {
+        font-size: 0.6rem;
+        margin: 1rem 0.2rem; } }
+    @media only screen and (max-width: 354px) {
+      footer a {
+        font-size: 0.5rem;
+        margin: 1rem 0.2rem; } }
   footer a:hover {
     text-decoration: none;
     color: #30BAE7; }
