@@ -69,7 +69,6 @@ nav {
     margin-bottom: 1.4rem; }
   .home_services h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -117,7 +116,6 @@ nav {
     font-weight: 600; }
   .home_team h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -168,7 +166,6 @@ nav {
     letter-spacing: 1px; }
   .home_skills h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -287,10 +284,11 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #ffdd99; }
+  background: #ffdd99;
+  color: #3C4761;
+  padding: 6rem 0; }
   .home_portfolio h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -346,10 +344,11 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #d74680; }
+  background: #d74680;
+  color: #3C4761;
+  padding: 6rem 0; }
   .home_comment h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -401,10 +400,11 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #3c5499; }
+  background: #3c5499;
+  color: #3C4761;
+  padding: 6rem 0; }
   .home_contact h2 {
     position: relative;
-    margin: 2rem 0;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
