@@ -404,7 +404,8 @@ nav {
         margin-bottom: 15px; } }
   .home_comment .comment_content {
     text-align: left;
-    font-size: 0.9rem; }
+    font-size: 0.9rem;
+    margin-bottom: 40px; }
     .home_comment .comment_content .quote {
       color: white;
       font-weight: 400; }
