@@ -387,7 +387,6 @@ nav {
     background-color: grey; }
     @media only screen and (max-width: 767px) {
       .home_comment .comment_avatar {
-        margin-left: 40%;
         width: 100px;
         height: 100px;
         margin-bottom: 15px; } }
