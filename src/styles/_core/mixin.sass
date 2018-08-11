@@ -1,0 +1,62 @@
+=home_section($bg_color,$height,$txt_color)
+    min-height: $height
+    display: flex
+    justify-content: center
+    align-items: center
+    text-align: center
+    background: $bg_color
+    color: $txt_color
+    padding: 6rem 0
+
+=section_title
+    position: relative
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 2.5rem
+    letter-spacing: 3px
+    margin-bottom: 2rem
+    &:before
+        content: ''
+        display: block
+        background-color: black
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        width: 80px
+        height: 4px
+        bottom: -20px
+        opacity: 0.1
+
+=section_introduction
+    font-size: 1rem
+    font-weight: 400
+    margin-bottom: 2.6rem
+
+=section_img($ms)
+    max-width: $ms
+    margin-bottom: 2rem
+
+=circular_percentage($color, $deg, $content)
+    background: linear-gradient($deg, $color 50%, transparent 50%, transparent), linear-gradient(270deg, $color 50%, #E0E0E0 50%, #E0E0E0)
+    border-radius: 50%
+    height: 150px
+    margin: 3rem auto 1.5rem
+    position: relative
+    width: 150px
+    transition: all .3s linear
+    &:before
+        background-color: #FAFAFA
+        border-radius: 50%
+        color: #4E586F
+        content: $content
+        font-size: 50px
+        font-weight: 400
+        height: 100%
+        left: 0
+        line-height: 8rem
+        position: absolute
+        text-align: center
+        top: 0
+        -webkit-transform: scale(0.87)
+        transform: scale(0.85)
+        width: 100%

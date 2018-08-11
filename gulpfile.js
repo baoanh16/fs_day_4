@@ -16,11 +16,18 @@ gulp.task('copy', function () {
     .pipe(gulp.dest('./dist/img'));
 });
 
+gulp.task('copyfont', function () {
+  return gulp.src([
+      './src/fonts/**.*',
+    ])
+    .pipe(gulp.dest('./dist/fonts'));
+});
+
 // Nối file CSS
 gulp.task('noifile-css', function () {
   return gulp.src([
       'bower_components/bootstrap/dist/css/bootstrap.min.css',
-      'bower_components/Font-Awesome/web-fonts-with-css/css/*.css',
+      'bower_components/font-awesome/css/font-awesome.min.css',
     ])
     .pipe(concat('thuvien.css'))
     .pipe(gulp.dest('./dist/css'));
@@ -62,7 +69,7 @@ gulp.task('taojs', function () {
 gulp.task('taohtml', function buildHTML() {
   return gulp.src([
       './src/template/**/*.pug',
-      '!./src/template/{**/\_*,**/\_*/**}.pug'
+      '!./src/template/{**//_*,**//_*/**}.pug'
     ])
     .pipe(pug({
       pretty: true
@@ -97,6 +104,7 @@ gulp.task('default', function () {
     'taojs',
     'taohtml',
     'theodoi',
-    'browser-sync'
+    'browser-sync',
+    'copyfont'
   ]);
 });
