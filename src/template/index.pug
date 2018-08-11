@@ -94,13 +94,14 @@ block main
 								a(href="#").btn APPS
 							li
 								a(href="#").btn ICONS
-			- var thumb_index = 1
+			- var thumb_index = 0
+			- var thumb_img = 1
 			- var thumb_array = ['ISOMETRIC PERSPECTIVE MOCK-UP','TIMEZONE APP UI','VIRO VIDEO PLAYER UI','BLOG / MAGAZINE FLAT UI KIT']
 			.row
-				while thumb_index <= 4
+				while thumb_index < 4 && thumb_img <= 4
 					.col-md-6
-						img(src="./img/home_work_thumbnail_"+ thumb_index++ +".png", alt="").img-fluid
-						h3= thumb_array[thumb_index]
+						img(src="./img/home_work_thumbnail_"+ thumb_img++ +".png", alt="").img-fluid
+						h3= thumb_array[thumb_index++]
 			.row
 				.col
 					.p
